@@ -10,6 +10,10 @@ namespace Console_Art
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("EF");
+            Console.ReadKey();
+
         }
+
     }
 }
