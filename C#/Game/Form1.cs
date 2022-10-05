@@ -14,6 +14,7 @@ namespace Game
     public partial class Form1 : Form
     {
         public Canvas c = null;
+        
         Sprite p1;
         Chaser p2;
         Ball b1;
@@ -29,6 +30,11 @@ namespace Game
             c.Add(p1);
             c.Add(p2);
             c.Add(b1);
+            
+        }
+        public void points()
+        {
+
         }
         
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -41,14 +47,14 @@ namespace Game
             }
 
 
-            if (e.KeyCode == Keys.Left)
+           /* if (e.KeyCode == Keys.Left)
             {
                 p1.moveleft();
             }
             if (e.KeyCode == Keys.Right)
             {
                 p1.moveright();
-            }
+            }*/
             if (e.KeyCode == Keys.Up)
             {
                 p1.moveup();
@@ -57,14 +63,14 @@ namespace Game
             {
                 p1.movedown();
             }
-            if (e.KeyCode == Keys.A)
+            /*if (e.KeyCode == Keys.A)
             {
                 p2.moveleft();
             }
             if (e.KeyCode == Keys.D)
             {
                 p2.moveright();
-            }
+            }*/
             if (e.KeyCode == Keys.W)
             {
                 p2.moveup();
@@ -101,10 +107,19 @@ namespace Game
             if (progressBar1.Value < progressBar1.Maximum)
                 progressBar1.Value++;
             // let the canvas do all the work
-            c.tick();
+            //c.tick();
+
         }
 
+        private void player2_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void player_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
