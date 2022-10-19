@@ -105,5 +105,17 @@
   <ItemGroup>
     <None Include="Resources\diamond.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Steve2.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black steve1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass1.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

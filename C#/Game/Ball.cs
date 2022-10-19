@@ -23,12 +23,24 @@ namespace Game
             Debug.Print(m_picture.Name + " collided with " + other.Name);
             // We collided, so let's figure out which way we should "bounce"
             // Clear
+            if (other.Name == "pictureBox3")
+            {
+                GetForm1().score1++;
+                
+            }
+            if (other.Name == "pictureBox4")
+            {
+                GetForm1().score2++;
+
+            }
+
             if (m_xdir != 0)
                 m_xdir *= -1; 
             else
                 m_ydir *= -1;
             
             return false; // bounce
+
         }
         public override void tick()
         {

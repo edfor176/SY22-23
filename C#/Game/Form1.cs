@@ -18,6 +18,8 @@ namespace Game
         Sprite p1;
         Chaser p2;
         Ball b1;
+        public int score1=0;
+        public int score2=0;
 
         public Form1()
         {
@@ -31,10 +33,6 @@ namespace Game
             c.Add(p2);
             c.Add(b1);
             
-        }
-        public void points()
-        {
-
         }
         
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -107,8 +105,9 @@ namespace Game
             if (progressBar1.Value < progressBar1.Maximum)
                 progressBar1.Value++;
             // let the canvas do all the work
-            //c.tick();
-
+            c.tick();
+            score1label.Text = score1.ToString();
+            score2label.Text = score2.ToString();
         }
 
         private void player2_Click(object sender, EventArgs e)

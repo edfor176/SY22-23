@@ -22,16 +22,18 @@ namespace Game
         {
             Sprite other = m_parent.getSpriteByName("player");
           
-            if (other.m_location.X < this.m_location.X)
+            /*
+                if (other.m_location.X < this.m_location.X)
                 m_xdir = -5;
             else
                 m_xdir = 5;
-            if (other.m_location.Y < this.m_location.Y)
+           if (other.m_location.Y < this.m_location.Y)
                 m_ydir = -5;
             else
                 m_ydir = 5;
            
             move(m_xdir, m_ydir);
+            */
 
         }
     }

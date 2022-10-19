@@ -31,6 +31,11 @@ namespace Game
         {
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.score1label = new System.Windows.Forms.Label();
+            this.score2label = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -38,11 +43,6 @@ namespace Game
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.player2 = new System.Windows.Forms.PictureBox();
             this.player = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -58,13 +58,60 @@ namespace Game
             this.timer1.Interval = 500;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label1.Location = new System.Drawing.Point(132, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(113, 29);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Player 1:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label2.Location = new System.Drawing.Point(764, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(113, 29);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Player 2:";
+            // 
+            // score1label
+            // 
+            this.score1label.AutoSize = true;
+            this.score1label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.score1label.Location = new System.Drawing.Point(251, 9);
+            this.score1label.Name = "score1label";
+            this.score1label.Size = new System.Drawing.Size(27, 29);
+            this.score1label.TabIndex = 11;
+            this.score1label.Text = "0";
+            // 
+            // score2label
+            // 
+            this.score2label.AutoSize = true;
+            this.score2label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.score2label.Location = new System.Drawing.Point(883, 9);
+            this.score2label.Name = "score2label";
+            this.score2label.Size = new System.Drawing.Size(27, 29);
+            this.score2label.TabIndex = 12;
+            this.score2label.Text = "0";
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(3, 0);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.TabIndex = 13;
+            // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pictureBox4.Location = new System.Drawing.Point(126, 48);
+            this.pictureBox4.Location = new System.Drawing.Point(116, 48);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(10, 299);
+            this.pictureBox4.Size = new System.Drawing.Size(20, 316);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
@@ -75,7 +122,7 @@ namespace Game
             this.pictureBox3.Location = new System.Drawing.Point(868, 48);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(10, 299);
+            this.pictureBox3.Size = new System.Drawing.Size(24, 299);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
@@ -83,10 +130,10 @@ namespace Game
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pictureBox2.Location = new System.Drawing.Point(126, 48);
+            this.pictureBox2.Location = new System.Drawing.Point(126, 40);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(752, 10);
+            this.pictureBox2.Size = new System.Drawing.Size(752, 18);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
@@ -109,14 +156,14 @@ namespace Game
             this.pictureBox1.Location = new System.Drawing.Point(137, 337);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(740, 10);
+            this.pictureBox1.Size = new System.Drawing.Size(740, 26);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // player2
             // 
-            this.player2.Image = global::Game.Properties.Resources.black_steve;
+            this.player2.Image = global::Game.Properties.Resources.Cool_Steve;
             this.player2.Location = new System.Drawing.Point(755, 97);
             this.player2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.player2.Name = "player2";
@@ -128,7 +175,7 @@ namespace Game
             // 
             // player
             // 
-            this.player.Image = global::Game.Properties.Resources.Cool_Steve1;
+            this.player.Image = global::Game.Properties.Resources.black_steve;
             this.player.Location = new System.Drawing.Point(184, 97);
             this.player.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.player.Name = "player";
@@ -138,53 +185,6 @@ namespace Game
             this.player.TabStop = false;
             this.player.Click += new System.EventHandler(this.player_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label1.Location = new System.Drawing.Point(132, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 29);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Player 1:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label2.Location = new System.Drawing.Point(764, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 29);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Player 2:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label3.Location = new System.Drawing.Point(251, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(27, 29);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "0";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label4.Location = new System.Drawing.Point(883, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(27, 29);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "0";
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(3, 0);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(100, 23);
-            this.progressBar1.TabIndex = 13;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -192,8 +192,8 @@ namespace Game
             this.BackgroundImage = global::Game.Properties.Resources.grass;
             this.ClientSize = new System.Drawing.Size(1026, 389);
             this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.score2label);
+            this.Controls.Add(this.score1label);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox4);
@@ -231,8 +231,8 @@ namespace Game
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label score1label;
+        private System.Windows.Forms.Label score2label;
         private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
