@@ -1,0 +1,8 @@
+C:\Users\edfor176\Documents\SY22-23\C#\Collections2\Collections2\bin\Debug\Collections2.exe.config
+C:\Users\edfor176\Documents\SY22-23\C#\Collections2\Collections2\bin\Debug\Collections2.exe
+C:\Users\edfor176\Documents\SY22-23\C#\Collections2\Collections2\bin\Debug\Collections2.pdb
+C:\Users\edfor176\Documents\SY22-23\C#\Collections2\Collections2\obj\Debug\Collections2.csproj.AssemblyReference.cache
+C:\Users\edfor176\Documents\SY22-23\C#\Collections2\Collections2\obj\Debug\Collections2.csproj.SuggestedBindingRedirects.cache
+C:\Users\edfor176\Documents\SY22-23\C#\Collections2\Collections2\obj\Debug\Collections2.csproj.CoreCompileInputs.cache
+C:\Users\edfor176\Documents\SY22-23\C#\Collections2\Collections2\obj\Debug\Collections2.exe
+C:\Users\edfor176\Documents\SY22-23\C#\Collections2\Collections2\obj\Debug\Collections2.pdb

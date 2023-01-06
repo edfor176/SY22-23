@@ -1,0 +1,11 @@
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\bin\Debug\My Grid.exe.config
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\bin\Debug\My Grid.exe
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\bin\Debug\My Grid.pdb
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\obj\Debug\My Grid.csproj.AssemblyReference.cache
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\obj\Debug\My Grid.csproj.SuggestedBindingRedirects.cache
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\obj\Debug\My_Grid.Form1.resources
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\obj\Debug\My_Grid.Properties.Resources.resources
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\obj\Debug\My Grid.csproj.GenerateResource.cache
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\obj\Debug\My Grid.csproj.CoreCompileInputs.cache
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\obj\Debug\My Grid.exe
+C:\Users\edfor176\Documents\SY22-23\C#\My Grid\My Grid\obj\Debug\My Grid.pdb

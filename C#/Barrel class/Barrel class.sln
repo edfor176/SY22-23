@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrel class", "Barrel class\Barrel class.csproj", "{B7EB2653-CDF8-41D3-8202-985132DEDD6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7EB2653-CDF8-41D3-8202-985132DEDD6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EB2653-CDF8-41D3-8202-985132DEDD6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EB2653-CDF8-41D3-8202-985132DEDD6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EB2653-CDF8-41D3-8202-985132DEDD6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73421478-388E-466F-8949-076A1C9EA69E}
+	EndGlobalSection
+EndGlobal

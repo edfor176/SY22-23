@@ -1,0 +1,8 @@
+C:\Users\edfor176\Documents\SY22-23\C#\Assesment\Assesment\obj\Debug\Assesment.csproj.AssemblyReference.cache
+C:\Users\edfor176\Documents\SY22-23\C#\Assesment\Assesment\obj\Debug\Assesment.csproj.SuggestedBindingRedirects.cache
+C:\Users\edfor176\Documents\SY22-23\C#\Assesment\Assesment\obj\Debug\Assesment.csproj.CoreCompileInputs.cache
+C:\Users\edfor176\Documents\SY22-23\C#\Assesment\Assesment\bin\Debug\Assesment.exe.config
+C:\Users\edfor176\Documents\SY22-23\C#\Assesment\Assesment\bin\Debug\Assesment.exe
+C:\Users\edfor176\Documents\SY22-23\C#\Assesment\Assesment\bin\Debug\Assesment.pdb
+C:\Users\edfor176\Documents\SY22-23\C#\Assesment\Assesment\obj\Debug\Assesment.exe
+C:\Users\edfor176\Documents\SY22-23\C#\Assesment\Assesment\obj\Debug\Assesment.pdb
